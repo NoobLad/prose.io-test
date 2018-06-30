@@ -1,0 +1,27 @@
+prose:
+  rooturl: 'src'
+  media: 'media'
+  ignore:
+    - README.md
+    - _config.yml
+  metadata:
+    articles:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Titre"
+      - name: "date"
+        field:
+          element: "text"
+          value: CURRENT_DATETIME
+          placeholder: "YYYY-MM-DD HH:MM"
+    pages:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Titre"
+      - name: "date"
+        field:
+          element: "text"
+          value: CURRENT_DATETIME
+          placeholder: "YYYY-MM-DD HH:MM"
